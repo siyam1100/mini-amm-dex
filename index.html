@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini AMM</title>
+</head>
+<body>
+
+<h2>Mini AMM DEX</h2>
+
+<button id="connect">Connect</button>
+
+<h3>Add Liquidity</h3>
+<input id="a1" placeholder="TokenA"/>
+<input id="b1" placeholder="TokenB"/>
+<button id="add">Add</button>
+
+<h3>Swap A → B</h3>
+<input id="swapA" placeholder="Amount A"/>
+<button id="swapAB">Swap</button>
+
+<h3>Swap B → A</h3>
+<input id="swapB" placeholder="Amount B"/>
+<button id="swapBA">Swap</button>
+
+<p id="status"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
